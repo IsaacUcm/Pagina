@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <style>
+        /* Reset básico para eliminar márgenes por defecto */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Configuración del fondo de la página */
+        body {
+            /* Carga la imagen local */
+            background-image: url('imagen.jpg'); 
+            /* Asegura que la imagen cubra toda la pantalla sin distorsionarse */
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            /* Define la altura de la pantalla completa */
+            height: 100vh; 
+            
+            /* Centra el título vertical y horizontalmente en la pantalla */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo del título en blanco y negro */
+        .titulo-hola {
+            font-size: 5rem;
+            font-weight: bold;
+            color: #FFFFFF;          /* Letras blancas */
+            background-color: #000000; /* Fondo negro */
+            padding: 10px 40px;      /* Espaciado interno para el fondo negro */
+            border-radius: 5px;      /* Bordes ligeramente redondeados (opcional) */
+            letter-spacing: 2px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para resaltar del fondo */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Título solicitado -->
+    <h1 class="titulo-hola">HOLA</h1>
+
+</body>
+</html>
